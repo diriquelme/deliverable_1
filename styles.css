@@ -1,0 +1,122 @@
+@media (max-width: 798px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        text-align:left;
+    }
+
+    .navButton {
+        margin-bottom: -18px;
+    }
+
+    .nav-right {
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .myNavButton {
+        order:1;
+        width:90%;
+        margin-top: 10px;
+    }
+    .myButton {
+        order:1;
+        display:flex;
+        width:90%;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 10px;
+    }
+  }
+
+body {
+    background-color: #F0ECEE;
+    font-family: 'Fira Sans';
+    height: 100%
+}
+
+.main {
+    background-image: url('bulldog.jpg');
+    background-color: #F0ECEE;
+    height: 1000px;
+    display:flexbox;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.main-text {
+    text-align: left;
+    margin: 315px 0 0 30px;
+    position: absolute;
+    font-weight: 600;
+    display: flexbox;
+  }
+
+h3 {
+    font-weight: 400;
+    color: #88898B; 
+} 
+
+.nav {
+    overflow: hidden;
+}
+
+.nav .unique {
+    float: left;
+    color: #000000;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.nav a {
+    float: left;
+    color: #88898B;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 300;
+}
+
+.nav-right {
+    float:right;
+}
+
+.myNavButton {
+	background-color:#ff4851;
+	border-radius:15px;
+	display:inline-block;
+	cursor:pointer;
+    color:#ffffff!important;
+	font-size:300;
+	padding:15px 50px;
+    text-decoration:none;
+    width: auto;
+}
+
+.myNavButton:hover {
+	background-color:#CCC;
+}
+.myNavButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton {
+	background-color:#ff4851;
+	border-radius:15px;
+	/*display:inline-block;*/
+	cursor:pointer;
+    color:#ffffff!important;
+	font-size:300;
+	padding:15px 50px;
+    text-decoration:none;
+    width: auto;
+}
+.myButton:hover {
+	background-color:#CCC;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
