@@ -129,13 +129,13 @@ h3 {
     }
     .myNavButton {
         order:1;
-        width:90%;
+        width:100%;
         margin-top: 10px;
     }
     .myButton {
         order:1;
         display:flex;
-        width:90%;
+        width:100%;
         flex-direction: column;
         justify-content: start;
         margin-top: 10px;
