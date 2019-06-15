@@ -1,43 +1,12 @@
-@media (max-width: 798px) {
-    .nav {
-        display: flex;
-        flex-direction: column;
-        text-align:left;
-    }
-
-    .navButton {
-        margin-bottom: -18px;
-    }
-
-    .nav-right {
-        display:flex;
-        flex-direction: column;
-        justify-content: start;
-    }
-    .myNavButton {
-        order:1;
-        width:90%;
-        margin-top: 10px;
-    }
-    .myButton {
-        order:1;
-        display:flex;
-        width:90%;
-        flex-direction: column;
-        justify-content: start;
-        margin-top: 10px;
-    }
-  }
-
 body {
     background-color: #F0ECEE;
     font-family: 'Fira Sans';
-    height: 100%
+    height: auto;
 }
 
 .main {
-    background-image: url('bulldog.jpg');
     background-color: #F0ECEE;
+    background-image: url('bulldog.jpg');
     height: 1000px;
     display:flexbox;
     background-repeat: no-repeat;
@@ -120,3 +89,38 @@ h3 {
 	position:relative;
 	top:1px;
 }
+
+
+@media (max-width: 798px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        text-align:left;
+    }
+
+    .navButton {
+        margin-bottom: -18px;
+    }
+
+    .nav-right {
+        display:flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+    .myNavButton {
+        order:1;
+        width:90%;
+        margin-top: 10px;
+    }
+    .myButton {
+        order:1;
+        display:flex;
+        width:90%;
+        flex-direction: column;
+        justify-content: start;
+        margin-top: 10px;
+    }
+    .main {
+        background-image: none;
+    }
+  }
