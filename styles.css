@@ -51,6 +51,26 @@ h3 {
     float:right;
 }
 
+.navButton {
+    color:88898B;
+}
+
+.navButton:hover {
+    color:#CCC;
+}
+
+.unique:hover {
+    color:#CCC;
+}
+
+.uniqueLink {
+    color: #ff4851;
+}
+
+.uniqueLink:hover {
+    color:#CCC;
+}
+
 .myNavButton {
 	background-color:#ff4851;
 	border-radius:15px;
@@ -64,11 +84,11 @@ h3 {
 }
 
 .myNavButton:hover {
-	background-color:#CCC;
+    background-color:#CCC;
 }
 .myNavButton:active {
 	position:relative;
-	top:1px;
+    top:1px;
 }
 
 .myButton {
